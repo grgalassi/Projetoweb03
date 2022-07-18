@@ -22,7 +22,7 @@ public class JwtSecurity extends OncePerRequestFilter {
 	private final String HEADER = "Authorization";
 	private final String PREFIX = "Bearer ";
 
-	public static final String SECRET = "745b7323-7704-4aa8-81b3-e1a7f1c4759e";
+	public static final String SECRET = "6ce32551-c9ee-4856-9a71-f1a251a49b0f";
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
